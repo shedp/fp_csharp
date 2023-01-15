@@ -1,0 +1,22 @@
+@model IEnumerable<ProductsModel>
+@{
+    ViewData["Title"] = "My List";
+}
+
+<h1>List for @User.Identity.Name</h1>
+<h1>@User.Identity.AuthenticationType</h1>
+
+<table class="table table-hover table-strped">
+    <thead>
+        <tr>Product Name</tr>
+    </thead>
+    <body>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.ProductName</td>
+            </tr>
+            
+        }
+    </body>
+</table>

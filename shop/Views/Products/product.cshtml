@@ -1,0 +1,11 @@
+@model ProductsModel
+@{
+    ViewData["Title"] = Model.ProductName;
+}
+
+<h1>@Model.ProductName</h1>
+<h3>We have @Model.ProductQTY in stock</h3>
+<h3>They cost £@Model.ProductCost each</h3>
+<a asp-controller="Products" asp-action="Products" class="btn btn-secondary">Back</a>
+<a asp-controller="Products" asp-action="Edit" asp-route-id=@Model.ProductID class="btn btn-primary">Edit</a>
+<a asp-controller="Products" asp-action="Delete" asp-route-id=@Model.ProductID class="btn btn-danger">Delete</a>

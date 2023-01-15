@@ -1,0 +1,15 @@
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.csproj.AssemblyReference.cache
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.AssemblyInfoInputs.cache
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.AssemblyInfo.cs
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.csproj.CoreCompileInputs.cache
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/bin/Debug/net7.0/pokemon
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/bin/Debug/net7.0/pokemon.deps.json
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/bin/Debug/net7.0/pokemon.runtimeconfig.json
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/bin/Debug/net7.0/pokemon.dll
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/bin/Debug/net7.0/pokemon.pdb
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.dll
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/refint/pokemon.dll
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.pdb
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/pokemon.genruntimeconfig.cache
+/Users/sheenadiep/Desktop/kamkwamba/lap3/pokemon/obj/Debug/net7.0/ref/pokemon.dll

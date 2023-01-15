@@ -1,0 +1,33 @@
+<!-- contains both html and c# -->
+@model IEnumerable<ProductsModel>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="text-center">
+    <h1>Products</h1>
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Quantity</th>
+                <th>Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Model)
+            {
+                <tr>
+                    <td><a asp-controller="Products" asp-action="Product" asp-route-id=@product.ProductID>@product.ProductName</a></td>
+                    <td>@product.ProductQTY</td>
+                    <td>@product.ProductCost</td>
+                    <td>
+                        <a asp-controller="Products" asp-action="AddToList" asp-route-id=@product.ProductID>
+                            Add
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
